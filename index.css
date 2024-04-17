@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: lightblue;
+    background-color: #D5E1EF;
 }
 
 main {
@@ -13,7 +13,7 @@ main {
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 85px;
+    padding: 115px;
 }
 
 .qr--container {
