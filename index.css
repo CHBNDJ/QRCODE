@@ -6,11 +6,8 @@ body {
 
 .code--card {
     display: flex;
-    justify-content: center;
     flex-direction: column;
     text-align: center;
-    width: 320px;
-    height: 497px;
     background-color: white;
     padding: 20px;
     border-radius: 20px;
