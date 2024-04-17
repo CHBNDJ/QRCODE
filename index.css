@@ -1,39 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-    padding: 125px;
-    margin: 50px 460px;
     background-color: lightblue;
 }
 
-.code--card {
+main {
     display: flex;
-    flex-direction: column;
     justify-content: center;
+    align-items: center;
     text-align: center;
+    padding: 30px;
+}
+
+.qr--container {
     width: 320px;
     height: 497px;
     background-color: white;
-    padding: 20px;
+    padding: 15px;
     border-radius: 20px;
 }
 
-.code--picture {
+.qr--picture {
     border-radius: 10px;
     cursor: pointer;
+    width: 288px;
+    height: 288px;
 }
 
-.code--title {
+.qr--title {
     color: dark;
     font-family: "Outfit", sans-serif;
     font-weight: 700;
     font-size: 22px;
     height: 56px;
+    margin-top: 20px;
 }
 
-.code--text {
+.qr--text {
     color: grey;
     font-family: "Outfit", sans-serif;
     font-weight: 100;
     font-size: 15px;
+    margin-top: 15px;
 }
 
 .attribution {
