@@ -1,0 +1,49 @@
+body {
+    padding: 125px;
+    margin: 80px 460px;
+    background-color: lightblue;
+}
+
+.code--card {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 320px;
+    height: 497px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.code--picture {
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.code--title {
+    color: dark;
+    font-family: "Outfit", sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    height: 56px;
+}
+
+.code--text {
+    color: grey;
+    font-family: "Outfit", sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+}
+
+.attribution {
+    text-align: center;
+    margin: 20px;
+}
+
+@media screen and (max-width: 767.98px) {
+    body {
+        margin: 26px;
+        padding: 130px 0;
+    }
+}
