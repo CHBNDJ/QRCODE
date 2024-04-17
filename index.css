@@ -1,6 +1,6 @@
 body {
     padding: 125px;
-    margin: 100px 460px;
+    margin: 200px 460px;
     background-color: lightblue;
 }
 
@@ -44,6 +44,6 @@ body {
 @media screen and (max-width: 767.98px) {
     body {
         margin: 26px;
-        padding: 130px 0;
+        padding: 180px 0;
     }
 }
